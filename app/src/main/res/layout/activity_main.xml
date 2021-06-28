@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What are you sending"
+                android:fontFamily="@font/roboto_bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Select your Parcel category"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="Document" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Detail of parcel"
+                android:fontFamily="@font/roboto_bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Max Weight"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="2 lb" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Size"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="9*15 in (Legal)" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Quantiy :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Deliver from :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="USA" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Deliver to :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="Bangladesh" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Store drop of data :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="22/6/21" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Expected Delivery :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E82127"
+                    android:text="1/7/2021" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ededed"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Price USD to BD :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="20dp"
+                    android:textColor="#E82127"
+                    android:text="$30" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Receiver Detail"
+                android:fontFamily="@font/roboto_bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Name :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="Arif Mizan" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Address :"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#4A4A4A"
+                    android:text="Dhanmondi" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="19dp"
+                android:background="@drawable/rounder_shape">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="#E82127"
+                    android:textSize="18dp"
+                    android:text="Add Payment Method "
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:src="@drawable/right_arrow"
+                    android:layout_height="30dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="19dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Add Coupon"
+                    android:gravity="right"
+                    android:layout_marginRight="7dp"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/roboto_bold"/>
+                <LinearLayout
+                    android:background="@drawable/rounder_shape"
+                    android:layout_weight="1"
+                    android:padding="17dp"
+                    android:layout_width="0dp"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_gift"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text=" Get 5$ Off"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textSize="15dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/bottom_arrow"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#F7F7F9"
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="$25"
+                android:textColor="#E82127"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto_bold"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="Pay For the Parcel"
+
+                android:fontFamily="@font/roboto_regular"/>
+            <TextView
+                android:background="@drawable/rounded_button"
+                android:layout_width="35dp"
+                android:textColor="#FFF"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="Pay Now"
+                android:textSize="15sp"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
